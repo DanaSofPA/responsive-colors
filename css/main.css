@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document for Lesson 3 Colors */
+/* CSS for Lesson 3 Colors */
 
 html, body {
   margin: 0px;
@@ -51,7 +51,7 @@ header {
 footer {
   width: 100%;
   height: 30px;
-  background: #e3e3e3;
+  background: deeppink;
 }
 
 
@@ -59,33 +59,39 @@ footer {
 /* I added orange background colors below */
 
 @media (min-width: 768px) {
-  header {
+ 
+ header {
     background-color: darkorange;
   }
 
   #column-1 {
-    background-color: coral ;
+    background-color: coral;
   }
 
   #column-2 {
-    background-color: darksalmon ;
+    background-color: darksalmon;
   }
 
   #column-3 {
-    background-color: lightsalmon ;
+    background-color: lightsalmon;
+	width: 100%;
   }
 
   footer {
-    background-color: moccasin ;
+    background-color: moccasin;
   }
   
+.col-3 {
+width: 50%;
+}
+
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: aqua ;
+    background-color: aqua;
   }
 
   #column-1 {
@@ -93,15 +99,20 @@ footer {
   }
 
   #column-2 {
-    background-color: cornflowerblue ;
+    background-color: cornflowerblue;
   }
 
   #column-3 {
-    background-color: lightblue ;
+    background-color: lightblue;
+	width: 33.3%;
   }
 
   footer {
-    background-color: seashell ;
+    background-color: aqua;
   }
+
+.col-3 {
+	width: 33.3%;
+}
    
 }
